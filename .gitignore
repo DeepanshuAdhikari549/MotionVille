@@ -1,3 +1,128 @@
+# ==========================================
+# MOTIONVILLE - JAVA FULL STACK PROJECT
+# Java 17 | Spring Boot | Maven | React | Vite
+# ==========================================
+
+# ------------------------------------------
+# Java compiled files
+# ------------------------------------------
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# ------------------------------------------
+# Maven build output
+# ------------------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Keep Maven Wrapper files
+!.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+
+# ------------------------------------------
+# Gradle build output
+# ------------------------------------------
+.gradle/
+build/
+.gradle-cache/
+
+# ------------------------------------------
+# IntelliJ IDEA
+# ------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ------------------------------------------
+# Eclipse
+# ------------------------------------------
+.classpath
+.project
+.settings/
+.metadata/
+
+# ------------------------------------------
+# Visual Studio Code
+# ------------------------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------------------------
+# Node.js and React dependencies
+# ------------------------------------------
+node_modules/
+
+# ------------------------------------------
+# Vite build output
+# ------------------------------------------
+dist/
+build/
+coverage/
+
+# npm / yarn / pnpm debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ------------------------------------------
+# Environment variables and secrets
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------
+# Local database files
+# ------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# H2 database files generated locally
+data/motionville.mv.db
+data/motionville.trace.db
+
+# ------------------------------------------
+# Temporary media processing files
+# ------------------------------------------
+*.tmp
+*.temp
+*.part
+
+# ------------------------------------------
+# Operating system files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------
+# Temporary and backup files
+# ------------------------------------------
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ------------------------------------------
+# Local runtime files
+# ------------------------------------------
+logs/
+tmp/
+temp/
 HELP.md
 target/
 /data/

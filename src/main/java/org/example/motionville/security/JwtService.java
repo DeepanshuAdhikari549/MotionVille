@@ -6,6 +6,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.Getter;
 import org.example.motionville.entity.account.AppUser;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseCookie;
@@ -28,6 +29,7 @@ public class JwtService {
 
     private final SecretKey signingKey;
     private final long accessExpirationMs;
+    @Getter
     private final long refreshExpirationMs;
     private final boolean cookieSecure;
     private final String cookieSameSite;
@@ -182,7 +184,4 @@ public class JwtService {
                 .build();
     }
 
-    public long getRefreshExpirationMs() {
-        return refreshExpirationMs;
-    }
 }
